@@ -1,9 +1,252 @@
 {
-  "posts": [
+  "roomdetails": [
     {
-      "id": 1,
-      "title": "Sample Post",
-      "content": "This is a sample post."
+      "type": "DELUXE",
+      "name": "LUXURY ROOM",
+      "description": "Deluxe luxury room are Peaceful and spacious, rest among the city.Furnished with a king size bed refreshing, comfortable spaces that afford peace and tranquility .",
+      "price": "3000 $",
+      "limit": "NIGHT",
+      "IMAGGE": "https://adigaresidency.com/wp-content/uploads/2016/02/Deluxe-4.png",
+      "id": "b98b"
+    },
+    {
+      "type": "DELUXE",
+      "name": "FAMILY ROOM",
+      "description": "Perfectly designed for travelers with children.Deluxe Family rooms come as either a double or twin, and feature sofa, bed.Ideal for families wanting to experience luxury",
+      "price": "4000 $",
+      "IMAGGE": "https://setupmyhotel.com/wp-content/uploads/2024/01/image-7.webp?ezimgfmt=rs:300x250/rscb339/ng:webp/ngcb338",
+      "limit": "NIGHT",
+      "id": "d4cb"
+    },
+    {
+      "type": "BUSINESS",
+      "name": " Executive Room",
+      "description": "Business Executive rooms are perfect for your business trips into Bangalore, rooms come as Twin Sharing bed. It is perfect for Business travelers.",
+      "price": "22000 $",
+      "IMAGGE": "https://setupmyhotel.com/wp-content/uploads/2024/01/image-6.webp?ezimgfmt=rs:300x250/rscb339/ng:webp/ngcb338",
+      "limit": "DAY",
+      "id": "4d53"
+    },
+    {
+      "type": "BUSINESS",
+      "name": "Class Suite",
+      "description": "Enjoy a two-room suite perfectly equipped for comfort and convenience With a private bedroom and separate living room. you have got two room for family, work or both.",
+      "price": "33000 $",
+      "IMAGGE": "https://setupmyhotel.com/wp-content/uploads/2024/01/image-8.webp?ezimgfmt=rs:300x250/rscb339/ng:webp/ngcb338",
+      "limit": "DAY",
+      "id": "ba1c"
+    }
+  ],
+  "roomlist": [
+    {
+      "id": "f986",
+      "room": "450",
+      "status": "available",
+      "type": "BUSINESS"
+    },
+    {
+      "id": "1df4",
+      "room": "121",
+      "status": "available",
+      "type": "BUSINESS"
+    },
+    {
+      "id": "5771",
+      "room": "111",
+      "status": "available",
+      "type": "GENERAL"
+    },
+    {
+      "id": "342b",
+      "room": "55",
+      "status": "available",
+      "type": "DELUXE"
+    },
+    {
+      "id": "3702",
+      "room": "333",
+      "status": "available",
+      "type": "BUSINESS"
+    },
+    {
+      "id": "32b5",
+      "room": "A-09",
+      "status": "unavailable",
+      "type": "BUSINESS"
+    },
+    {
+      "id": "84d0",
+      "room": "555",
+      "status": "available",
+      "type": "DELUXE"
+    },
+    {
+      "id": "3132",
+      "room": "9999999999",
+      "status": "available",
+      "type": "BUSINESS"
+    },
+    {
+      "id": "7d8d",
+      "room": "1234567898765432",
+      "status": "available",
+      "type": "BUSINESS"
+    },
+    {
+      "id": "704d",
+      "room": "2354325677654367898765435678987654567898",
+      "status": "available",
+      "type": "GENERAL"
+    },
+    {
+      "id": "2408",
+      "room": "111111",
+      "status": "available",
+      "type": "COMMON"
+    },
+    {
+      "id": "6aa3",
+      "room": "A-402",
+      "status": "available",
+      "type": "COMMON"
+    },
+    {
+      "id": "f0c9",
+      "room": "098",
+      "status": "available",
+      "type": "DELUXE"
+    }
+  ],
+  "reservationlist": [
+    {
+      "id": "3beb",
+      "type": "BUSINESS",
+      "roomnumber": "121",
+      "name": "vamja",
+      "phone": "56789",
+      "checkin": "7890-05-06",
+      "checkout": "5555-05-05"
+    },
+    {
+      "id": "5d4c",
+      "type": "BUSINESS",
+      "roomnumber": "121",
+      "name": "virat",
+      "phone": "5432",
+      "checkin": "275760-07-06",
+      "checkout": "275760-03-04"
+    },
+    {
+      "id": "d004",
+      "type": "DELUXE",
+      "roomnumber": "555",
+      "name": "BHARAGAV",
+      "phone": "7895678956789",
+      "checkin": "8888-08-08",
+      "checkout": "9999-09-09"
+    },
+    {
+      "id": "3bfe",
+      "type": "BUSINESS",
+      "roomnumber": "333",
+      "name": "krunal",
+      "phone": "989889898",
+      "checkin": "7777-01-01",
+      "checkout": "2024-05-17"
+    },
+    {
+      "id": "d56b",
+      "type": "BUSINESS",
+      "roomnumber": "45",
+      "name": "bhargavvvv",
+      "phone": "9765432",
+      "checkin": "76543-09-08",
+      "checkout": "275760-09-08"
+    },
+    {
+      "id": "c915",
+      "type": "DELUXE",
+      "roomnumber": "55",
+      "name": "HITESH",
+      "phone": "456789",
+      "checkin": "6789-04-05",
+      "checkout": "6789-04-05"
+    },
+    {
+      "id": "0455",
+      "type": "BUSINESS",
+      "roomnumber": "45",
+      "name": "TOPA",
+      "phone": "7878878711",
+      "checkin": "275760-08-07",
+      "checkout": "275760-08-07"
+    }
+  ],
+  "login": [
+    {
+      "role": "",
+      "admin": "",
+      "id": "db7f"
+    },
+    {
+      "id": "16f9",
+      "name": "bhargav",
+      "password": "123"
+    },
+    {
+      "id": "78ea",
+      "name": "jaydeep",
+      "password": "123"
+    },
+    {
+      "id": "168f",
+      "name": "admin",
+      "password": "12345"
+    },
+    {
+      "id": "4473",
+      "name": "admin",
+      "password": "12345"
+    },
+    {
+      "id": "43a6",
+      "name": "admin",
+      "password": "12345"
+    },
+    {
+      "id": "88e1",
+      "name": "bhargav",
+      "password": "123"
+    },
+    {
+      "id": "1e76",
+      "name": "918238061093dfdsf",
+      "password": "2345thfcbcv"
+    },
+    {
+      "id": "54b2",
+      "name": "ares",
+      "password": "xvx"
+    },
+    {
+      "id": "4651",
+      "name": "admin",
+      "password": " d"
+    },
+    {
+      "id": "f49c",
+      "name": "TESTCARD27",
+      "password": "sadsa"
+    },
+    {
+      "id": "dddc",
+      "name": "TESTCARD27",
+      "password": "sadsa"
+    },
+    {
+      "id": "c4f3",
+      "name": "TESTCARD27",
+      "password": "sadsa"
     }
   ]
 }
